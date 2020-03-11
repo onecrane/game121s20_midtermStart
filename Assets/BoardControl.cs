@@ -61,7 +61,7 @@ public class BoardControl : MonoBehaviour
      *  
      *  
      *  
-     *  5. How to test
+     *  5. How To Test
      *  
      *  You can test if your functions are working by playing the scene.
      *  At first, you should be able to click on any white pawn 
@@ -71,7 +71,15 @@ public class BoardControl : MonoBehaviour
      *  When you can click on a given piece type of either color and see all
      *  the valid places where it can move, the function for that piece type is complete.
      *  
-     *  You may ask for confirmation of correctness at any time.
+     *  You may ask for confirmation of correctness at any time, if taking the test in person.
+     *  
+     *  
+     *  
+     *  6. Permissible resources
+     *  
+     *  You may use any non-sentient aid at your disposal. The only exception to this
+     *  is that if you are taking the test in person, you may ask me to confirm
+     *  if your output is correct, as stated under How To Test.
     */
 
 
@@ -239,10 +247,8 @@ public class BoardControl : MonoBehaviour
     /**************************************************************************** Hadrian's Wall ****************************************************************************/
     // Do not modify anything below this line. You may look at it, but do not change it or you 
     // will risk destabilizing the game, for which you will be severely penalized.
-    //
-    // As the region says: Do Not Touch.
 
-    #region Do Not Touch
+    #region Look, but don't touch
 
     public float xGrid = 1.75625f;
     public float yGrid = 1.76125f;
